@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../cssMemSlider/style.css">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../cssMemSlider/style.css">
+	<title>Document</title>
 </head>
+
 <body>
+
 	<div class="wrapper">
-        <h1>This is my favorite mems:</h1>
-		<input checked type="radio" name="respond" id="desktop">
-			<article id="slider">
-					<input checked type="radio" name="slider" id="switch1">
-					<input type="radio" name="slider" id="switch2">
-					<input type="radio" name="slider" id="switch3">
-					<input type="radio" name="slider" id="switch4">
+		<h1>These are my favorite mems:</h1>
+		<input checked type="radio" name="radio" id="radio1">
+		<input type="radio" name="radio" id="radio2">
+		<input type="radio" name="radio" id="radio3">
+		<input type="radio" name="radio" id="radio4">
 
-				<div id="slides">
-					<div id="overflow">
-						<div class="image">
-							<article><img src="../cssMemSlider/image/mem1.jpg"></article>
-							<article><img src="../cssMemSlider/image/mem2.jpg"></article>
-							<article><img src="../cssMemSlider/image/mem3.jpg"></article>
-							<article><img src="../cssMemSlider/image/mem4.jpg"></article>
+		<div class="slider">
+			<div class="slide s1"><img src="../cssMemSlider/image/mem1.jpg" alt="mem"></div>
+			<div class="slide"><img src="../cssMemSlider/image/mem2.jpg" alt="mem"></div>
+			<div class="slide"><img src="../cssMemSlider/image/mem3.jpg" alt="mem"></div>
+			<div class="slide"><img src="../cssMemSlider/image/mem4.jpg" alt="mem"></div>
 
-						</div>
-					</div>
 
+
+		</div>
+
+		<footer>
+			<div class="note">
+				<div class="note-items">
+					<p class="note-text">Really!</p>
+					<p class="note-text">I'll go count...</p>
+					<p class="note-text">Media queries</p>
+					<p class="note-text">Do you like drink?)</p>
 				</div>
-			<div class="active__bottom">
+			</div>
+			<div class="navigation">
 
-				<div id="active">
-					<label for="switch1"></label>
-					<label for="switch2"></label>
-					<label for="switch3"></label>
-					<label for="switch4"></label>
-				</div>
+				<label for="radio1" class="bullet"><span></span></label>
+				<label for="radio2" class="bullet"><span></span></label>
+				<label for="radio3" class="bullet"><span></span></label>
+				<label for="radio4" class="bullet"><span></span></label>
 
-				</div>
-			</article>
+			</div>
+		</footer>
 	</div>
 </body>
+
 </html>
